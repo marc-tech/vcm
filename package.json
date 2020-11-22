@@ -1,0 +1,19 @@
+{
+  "name": "@dev-your-ops/vcm",
+  "version": "0.0.1",
+  "repository": "git@github.com:marc-tech/vcm.git",
+  "author": "marc <marc.nalpas@epitech.eu>",
+  "license": "MIT",
+  "bin": {
+    "dyops": "bin/vcm"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "esm": "^3.2.25",
+    "pm2": "^4.5.0"
+  }
+}
